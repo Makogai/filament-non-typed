@@ -1,5 +1,5 @@
 {
-    "name": "filament/filament",
+    "name": "makogai/filament-non-typed",
     "description": "A collection of tools for rapidly building beautiful TALL stack interfaces, designed for humans.",
     "license": "MIT",
     "require": {
