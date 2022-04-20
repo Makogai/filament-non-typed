@@ -32,7 +32,7 @@ class MakeUserCommand extends Command
         return static::getUserModel()::create($this->getUserData());
     }
 
-    protected function sendSuccessMessage(User $user): void
+    protected function sendSuccessMessage($user): void
     {
         $loginUrl = route('filament.auth.login');
         $this->info('Success! ' . ($user->getAttribute('email') ?? $user->getAttribute('username') ?? 'You') . " may now log in at {$loginUrl}.");
