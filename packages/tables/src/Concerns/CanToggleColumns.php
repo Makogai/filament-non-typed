@@ -29,7 +29,7 @@ trait CanToggleColumns
                 continue;
             }
 
-            $state[$column->getName()] = !$column->isToggledByDefault();
+            $state[$column->getName()] = ! $column->isToggledByDefault();
         }
 
         return $state;
